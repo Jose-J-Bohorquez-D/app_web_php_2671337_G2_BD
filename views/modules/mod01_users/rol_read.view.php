@@ -2,7 +2,7 @@
 			<div class="container-fluid">
 				<ul class="full-box list-unstyled page-nav-tabs">
 					<li>
-						<a href="user-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO ROL</a>
+						<a href="?c=Roles&a=createRol"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO ROL</a>
 					</li>
 					<li>
 						<a class="active" href="user-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE ROLES</a>
