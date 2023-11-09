@@ -38,7 +38,7 @@
 										<input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,35}" class="form-control" name="usuario_apellido" id="usuario_apellido" maxlength="35">
 									</div>
 								</div>
-								<div class="col-12 col-md-6">
+								<!--<div class="col-12 col-md-6">
 									<div class="form-group">
 										<label for="usuario_telefono" class="bmd-label-floating">Teléfono</label>
 										<input type="text" pattern="[0-9()+]{1,20}" class="form-control" name="usuario_telefono" id="usuario_telefono" maxlength="20">
@@ -49,7 +49,7 @@
 										<label for="usuario_direccion" class="bmd-label-floating">Dirección</label>
 										<input type="text" pattern="[a-zA-Z0-99áéíóúÁÉÍÓÚñÑ()# ]{1,190}" class="form-control" name="usuario_direccion" id="usuario_direccion" maxlength="190">
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 					</fieldset>
@@ -58,12 +58,12 @@
 						<legend><i class="fas fa-user-lock"></i> &nbsp; Información de la cuenta</legend>
 						<div class="container-fluid">
 							<div class="row">
-								<div class="col-12 col-md-6">
+								<!--<div class="col-12 col-md-6">
 									<div class="form-group">
 										<label for="usuario_usuario" class="bmd-label-floating">Nombre de usuario</label>
 										<input type="text" pattern="[a-zA-Z0-9]{1,35}" class="form-control" name="usuario_usuario" id="usuario_usuario" maxlength="35">
 									</div>
-								</div>
+								</div>-->
 								<div class="col-12 col-md-6">
 									<div class="form-group">
 										<label for="usuario_email" class="bmd-label-floating">Email</label>
@@ -78,7 +78,9 @@
 								</div>
 								<div class="col-12 col-md-6">
 									<div class="form-group">
-										<label for="usuario_clave_2" class="bmd-label-floating">Repetir contraseña</label>
+										<!--<label for="usuario_clave_2" class="bmd-label-floating">Repetir contraseña</label>
+										<input type="password" class="form-control" name="usuario_clave_2" id="usuario_clave_2" maxlength="200">-->
+										<label for="usuario_clave_2" class="bmd-label-floating">Estado</label>
 										<input type="password" class="form-control" name="usuario_clave_2" id="usuario_clave_2" maxlength="200">
 									</div>
 								</div>
